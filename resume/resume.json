@@ -1,0 +1,100 @@
+{
+  "basics": {
+    "name": "Jon Adams",
+    "picture": "profile.jpg",
+    "email": "jon@kuokoa.studio",
+    "phone": "+1-808-343-7953",
+    "website": "http://daetal.us",
+    "label": "Industrial Developer",
+    "summary": "Experienced, resourceful and effective developer, designer and architect of interactive data visualization, analysis and processing, distributed systems and web applications.",
+    "location": {
+      "address": "1002 Koʻohoʻo Place",
+      "postalCode": "96734",
+      "city": "Kailua",
+      "country": "US",
+      "region": "Hawaiʻi"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "daetal-us",
+        "url": "https://github.com/daetal-us"
+      },{
+        "network": "Medium",
+        "username": "daetalus",
+        "url": "http://medium.com/@daetalus"
+      },{
+        "network": "Twitter",
+        "username": "daetalus",
+        "url": "http://twitter.com/@daetalus"
+      },{
+        "network": "LinkedIn",
+        "username": "daetalus",
+        "url": "https://linkedin.com/in/daetalus"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Kuokoa, LLC",
+      "location": "Oʻahu, HI",
+      "position": "Owner",
+      "startDate": "2016-10",
+      "endDate": "Current",
+      "summary": "",
+      "highlights": [
+        "Designed all content and layout, captured and edited all photography, coordinated printing, publishing and sales for a casual but elegant and inspiring culinary catalog featuring west coast (California) and island (Hawaiʻi) cuisine; complemented by a website and paired with open source tooling.",
+        "Successfully designed, developed and deployed an internal corporate event planning and approval web application for one of the largest, most successful shoe manufacturers in the world."
+      ]
+    },
+    {
+      "name": "Apple, Inc.",
+      "location": "Cupertino, CA",
+      "position": "Data Visualist, Industrial Design",
+      "startDate": "2015-06",
+      "endDate": "2016-10",
+      "summary": "Directly supported Industrial Design with emphasis on Human Factors. Collaborated with Designers, Researchers and Engineering teams across every function of the company to collectively and iteratively explore, identify and optimize both physical and virtual product design and design processes.",
+      "highlights": [
+        "Produced compelling interactive and static visual design communications and statistical analysis summaries utilized by the Industrial and Product Design teams and directly influencing the design process and conversation for multiple successful and in-development products.",
+        "Generated numerous three dimensional surfaces, curvature and other geometries directly supporting various products ranging from physical and virtual product features to abstract, statistical representations of various aspects of the human form in dynamic contexts.",
+        "Architected and successfully coordinated development of a sophisticated document-oriented data structure, http json api and internal security strategy for a standardized data warehouse and unified reporting interface for disparate experimental data.",
+        "Designed a novel, configurable, iterative shape-fitting process that served at the center of design process for an upcoming product that was considered and queued for U.S. Patent."
+      ]
+    }, {
+      "name": "Apple, Inc.",
+      "location": "Cupertino, CA",
+      "position": "Interactive Data Engineer, Product Design",
+      "startDate": "2015-02",
+      "endDate": "2015-06",
+      "summary": "Directly supported Industrial Design with emphasis on Human Factors. Collaborated with Designers, Researchers and Engineering teams across every function of the company to collectively and iteratively explore, identify and optimize both physical and virtual product design and design processes.",
+      "highlights": [
+        "Developed and deployed in-house wiki and publishing platform to coordinate communication, transparency and collaboration of Human Factors related research and interactive data visualizations.",
+        "Level of success, impact and utility in development, design, collaboration and communication warranted induction to Industrial Design team in an official capacity within three months."
+      ]
+    }, {
+      "name": "Apple, Inc.",
+      "location": "Cupertino, CA and Shanghai, China",
+      "position": "Producer, Manufacturing Design",
+      "startDate": "2011-01",
+      "endDate": "2015-02",
+      "summary": "Founding member and lead developer, designer and architect for a software team embedded in Manufacturing Design.",
+      "highlights": [
+        "Established and grew a multi-talented software team directly supporting Manufacturing Design in addition to leading the technical architecture, design and development of a suite of web applications and distributed systems supporting the mass production of nearly every product.",
+        "Architected, developed and deployed a state-of-the-art reverse proxy authentication micro-service interfacing with the corporate single-sign-on implementation that became a gold standard for SSO authentication for internal web services.",
+        "Designed, developed and successfully deployed a scalable, distributed manufacturing traceability and quality control system interfacing with laser etch machines, part scanners, custom touch screens with fully customizable data collection collaboratively defined by and utilized by Apple and external suppliers in Asia including a near-realtime web-accessible dashboard and unified reporting system.",
+        "Lead the design, codification and deployment of the standard for a distributed, machine-readable, binary part marking and identication standard that was adopted for all desktop and portable enclosures at all suppliers and considered for U.S. Patent."
+      ]
+    }, {
+      "name": "Iluminada Design",
+      "location": "Santa Cruz, CA",
+      "position": "Web Developer and Designer",
+      "startDate": "2006-02",
+      "endDate": "2011-01",
+      "summary": "Lead full-stack developement of web applications, customized e-commerce solutions and assisted with occasional interface design.",
+      "highlights": [
+        "Successfully developed and deployed extraordinary custom modifications and various plugins for existing e-commerce applications.",
+        "Designed and developed a simple but highly effective an in-house, customizable content management system."
+      ]
+    }
+  ]
+}

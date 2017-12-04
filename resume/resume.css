@@ -1,0 +1,170 @@
+html, body, #resume {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: europa, sans-serif;
+  font-size: 16pt;
+  line-height: 1.4;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  background: black url(koolau.gif) no-repeat top left;
+  background-size: auto 100%;
+  overflow: hidden;
+}
+#resume {
+  font-size: .75rem;
+}
+a, a:link, a:active, a:visited, a:hover {
+  text-decoration: none;
+}
+#overview {
+  width: 25vw;
+  min-width: 300px;
+  background: rgba(0,0,0,.9);
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  overflow-y: auto;
+}
+#basics {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+}
+#basics img {
+  margin: 2rem 0 2em;
+  display: block;
+  width: 50%;
+  background: rgba(0,0,0,.125);
+  border-radius: 100%;
+}
+#basics h1, #basics h2 {
+  font-size: 1.6em;
+  font-weight: 300;
+  margin: 0;
+}
+/*#basics h1 {
+  font-family: chicken scratch extended;
+  font-size: 3em;
+}*/
+#basics h2 {
+  color: rgba(255,255,255,.35);
+}
+#basics p {
+  flex: 1;
+  font-weight: 300;
+  margin-top: 2em;
+}
+
+#contact {
+  padding: 2em;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+#profiles {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#contact a, #profiles a {
+  display: block;
+  color: rgba(255,255,255,.5);
+  transition: all ease .5s;
+}
+#contact a:hover, #profiles a:hover {
+  color: rgba(255,255,255,1);
+}
+#contact a {
+  color: rgba(255, 255, 255, .35);
+}
+
+#details {
+  flex: 1;
+  background: white;
+  overflow-y: auto;
+}
+
+#work {
+  min-width: 340px;
+  padding: 2rem;
+}
+
+#work h3, #work h4, #work h5, #work h6, #work p, #work li {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+#work h3 {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 1.4rem;
+}
+
+#work h4, #work h5, #work h6 {
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+}
+#work h4 {
+  font-weight: normal;
+}
+#work h5, #work h6 {
+  display: block;
+}
+
+#work h6 {
+  font-size: .8em;
+  line-height: 2.8;
+  color: rgba(0,0,0,.35);
+}
+
+#work h6.duration {
+  position: absolute;
+  font-size: .6em;
+  line-height: 1;
+  font-weight: normal;
+  top: 0;
+  right: 0;
+  border-radius: 0 .25rem 0 .25rem;
+  background: rgba(0,0,0,.05);
+  color: rgba(0,0,0,.35);
+  padding: 1em 1.4em;
+}
+
+#work p {
+  font-size: .8em;
+}
+
+#work ul {
+  font-size: .8em;
+  margin: 0;
+  padding: 0 6em 0 4em;
+}
+
+#work p, #work li {
+  margin: 1em 0;
+}
+
+#work li {
+  color: rgba(0,0,0,.5);
+}
+
+#work p {
+  margin: 2em 0;
+}
+
+#work .job {
+  position: relative;
+  margin: 0 0 2rem 0;
+  padding: 1.4rem;
+  background: whiteSmoke linear-gradient(180deg, whiteSmoke, #eee);
+  border-radius: .25rem;
+}
