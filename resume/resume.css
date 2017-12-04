@@ -177,6 +177,9 @@ a, a:link, a:active, a:visited, a:hover {
   #overview {
     width: auto;
   }
+  #overview, #details {
+    overflow: auto;
+  }
   #basics img {
     width: auto;
     height: 25vh;
