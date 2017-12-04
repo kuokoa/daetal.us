@@ -181,6 +181,7 @@ a, a:link, a:active, a:visited, a:hover {
     overflow: auto;
   }
   #basics img {
+    margin-top: 0;
     width: auto;
     height: 25vh;
   }
