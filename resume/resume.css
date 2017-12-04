@@ -13,6 +13,7 @@ html, body, #resume {
   background-size: auto 100%;
   overflow: hidden;
 }
+
 #resume {
   font-size: .75rem;
 }
@@ -21,7 +22,6 @@ a, a:link, a:active, a:visited, a:hover {
 }
 #overview {
   width: 25vw;
-  min-width: 300px;
   background: rgba(0,0,0,.9);
   padding: 2rem;
   color: white;
@@ -164,7 +164,21 @@ a, a:link, a:active, a:visited, a:hover {
 #work .job {
   position: relative;
   margin: 0 0 2rem 0;
-  padding: 1.4rem;
+  padding: 1.8rem 1.4rem;
   background: whiteSmoke linear-gradient(180deg, whiteSmoke, #eee);
   border-radius: .25rem;
+}
+
+@media (max-width: 768px) {
+  #resume {
+    display: block;
+    overflow: auto;
+  }
+  #overview {
+    width: auto;
+  }
+  #basics img {
+    width: auto;
+    height: 25vh;
+  }
 }
