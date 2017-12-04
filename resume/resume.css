@@ -92,7 +92,6 @@ a, a:link, a:active, a:visited, a:hover {
 }
 
 #work {
-  min-width: 340px;
   padding: 2rem;
 }
 
@@ -173,6 +172,7 @@ a, a:link, a:active, a:visited, a:hover {
   #resume {
     display: block;
     overflow: auto;
+    height: auto;
   }
   #overview {
     width: auto;
@@ -183,5 +183,19 @@ a, a:link, a:active, a:visited, a:hover {
   #basics img {
     width: auto;
     height: 25vh;
+  }
+  #work {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  #work .job {
+    margin: 1px 0 0;
+    border-radius: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  #work ul {
+    padding: 0 2em;
   }
 }
