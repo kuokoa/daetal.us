@@ -124,12 +124,6 @@ a, a:link, a:active, a:visited, a:hover {
   display: block;
 }
 
-#work h6 {
-  font-size: .8em;
-  line-height: 2.8;
-  color: rgba(0,0,0,.35);
-}
-
 #work h6.duration {
   position: absolute;
   font-size: .6em;
@@ -141,6 +135,14 @@ a, a:link, a:active, a:visited, a:hover {
   background: rgba(0,0,0,.025);
   color: rgba(0,0,0,.35);
   padding: 1em 1.4em;
+}
+
+#work h6.location {
+  font-size: .6em;
+  line-height: 2.8;
+  color: rgba(0,0,0,.25);
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 #work p {
@@ -158,7 +160,7 @@ a, a:link, a:active, a:visited, a:hover {
 }
 
 #work li {
-  color: rgba(0,0,0,.5);
+  color: rgba(0,0,0,.75);
 }
 
 #work p {
