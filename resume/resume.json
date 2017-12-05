@@ -57,7 +57,7 @@
       "highlights": [
         "Produced compelling interactive and static visual design communications and statistical analysis summaries utilized by the Industrial and Product Design teams and directly influencing the design process and conversation for multiple successful and in-development products.",
         "Generated numerous three dimensional surfaces, curvature and other geometries directly supporting various products ranging from physical and virtual product features to abstract, statistical representations of various aspects of the human form in dynamic contexts.",
-        "Architected and successfully coordinated development of a sophisticated document-oriented data structure, http json api and internal security strategy for a standardized data warehouse and unified reporting interface for disparate experimental data.",
+        "Architected and successfully coordinated development of a sophisticated document-oriented data structure, HTTP JSON API and internal security strategy for a standardized data warehouse and unified reporting interface for disparate experimental data.",
         "Designed a novel, configurable, iterative shape-fitting process that served at the center of design process for an upcoming product that was considered and queued for U.S. Patent."
       ]
     }, {
@@ -82,7 +82,8 @@
         "Established and grew a multi-talented software team directly supporting Manufacturing Design in addition to leading the technical architecture, design and development of a suite of web applications and distributed systems supporting the mass production of nearly every product.",
         "Architected, developed and deployed a state-of-the-art reverse proxy authentication micro-service interfacing with the corporate single-sign-on implementation that became a gold standard for SSO authentication for internal web services.",
         "Designed, developed and successfully deployed a scalable, distributed manufacturing traceability and quality control system interfacing with laser etch machines, part scanners, custom touch screens with fully customizable data collection collaboratively defined by and utilized by Apple and external suppliers in Asia including a near-realtime web-accessible dashboard and unified reporting system.",
-        "Lead the design, codification and deployment of the standard for a distributed, machine-readable, binary part marking and identication standard that was adopted for all desktop and portable enclosures at all suppliers and considered for U.S. Patent."
+        "Lead the design, codification and deployment of the standard for a distributed, machine-readable, binary part marking and identication standard that was adopted for all desktop and portable enclosures at all suppliers and considered for U.S. Patent.",
+        "Founded and coordinated a successful internal open source software initiative and club encouraging collaboration, communication and transparency including branding, a mailing list, chat room with logs and a network of web applications and tooling for code-sharing."
       ]
     }, {
       "name": "Iluminada Design",
