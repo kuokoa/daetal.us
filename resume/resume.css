@@ -27,7 +27,7 @@ a, a:link, a:active, a:visited, a:hover {
 }
 #overview {
   width: 25vw;
-  background: rgba(0,0,0,.9);
+  background: rgba(0,0,0,.75);
   padding: 2rem;
   color: white;
   text-align: center;
@@ -66,7 +66,6 @@ a, a:link, a:active, a:visited, a:hover {
 }
 
 #contact {
-  padding: 2em;
   font-size: 1.4em;
   font-weight: 300;
 }
@@ -76,6 +75,7 @@ a, a:link, a:active, a:visited, a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 2em 0;
 }
 
 #contact a, #profiles a {
@@ -177,7 +177,7 @@ a, a:link, a:active, a:visited, a:hover {
   font-size: 1.2em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), print {
   #resume {
     display: block;
     overflow: auto;
@@ -207,5 +207,69 @@ a, a:link, a:active, a:visited, a:hover {
   }
   #work ul {
     padding: 0 2em;
+  }
+}
+
+
+@media print {
+  html, body, #resume {
+    overflow: visible !important;
+  }
+  body * {
+    background-image: none !important;
+    background-color: white !important;
+    color: black !important;
+    display: block !important;
+    text-align: left !important;
+  }
+  script {
+    display: none !important;
+  }
+  h1, h2 {
+    text-align: center !important;
+  }
+  #work {
+    page-break-before: always;
+  }
+  #work .job {
+    font-size: 1em;
+    padding: .9rem 1.4rem;
+  }
+  #contact {
+    padding: 1em 0;
+  }
+  #contact a {
+    text-align: center !important;
+  }
+  #work h6.duration {
+    position: relative;
+    width: 14em;
+    padding: 0;
+  }
+  #profiles a {
+    position: relative;
+    color: rgba(0,0,0,0) !important;
+  }
+  #profiles a:after {
+    color: black !important;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: calc(25%);
+    display: block;
+    content: attr(href);
+  }
+  #basics img {
+    height: 4.4em;
+    margin: 0 auto 1.4rem;
+  }
+  #work {
+    padding-top: 0;
+  }
+  #work h3 {
+    text-align: center !important;
+    margin-bottom: 0;
+    padding-top: 2em;
   }
 }
