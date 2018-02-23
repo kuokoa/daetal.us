@@ -106,10 +106,22 @@ a, a:link, a:active, a:visited, a:hover {
   font-weight: normal;
 }
 
+#work a {
+  color: black;
+  border-bottom: 1px dashed #09f;
+}
+
 #work h3 {
   text-align: center;
   font-size: 1.6em;
   margin-bottom: 1.4rem;
+}
+
+#work select {
+  display: block;
+  text-transform: capitalize;
+  margin: 0 auto 2rem;
+  font-size: 12pt;
 }
 
 #work h4, #work h5, #work h6 {
@@ -130,11 +142,11 @@ a, a:link, a:active, a:visited, a:hover {
   line-height: 1;
   font-weight: normal;
   top: 0;
-  right: 0;
-  border-radius: 0 .25rem 0 .25rem;
+  right: .8rem;
+  border-radius: 0 0 .25rem .25rem;
   background: rgba(0,0,0,.025);
   color: rgba(0,0,0,.35);
-  padding: 1em 1.4em;
+  padding: .8em 1.2em;
 }
 
 #work h6.location {
@@ -153,6 +165,14 @@ a, a:link, a:active, a:visited, a:hover {
   font-size: .8em;
   margin: 0;
   padding: 0 4em;
+}
+
+#work ul {
+  display: none;
+}
+
+#work ul.active {
+  display: block;
 }
 
 #work p, #work li {
@@ -245,6 +265,9 @@ a, a:link, a:active, a:visited, a:hover {
     position: relative;
     width: 14em;
     padding: 0;
+    left: auto;
+    right: auto;
+    display: inline !imporant;
   }
   #profiles a {
     position: relative;
@@ -271,5 +294,20 @@ a, a:link, a:active, a:visited, a:hover {
     text-align: center !important;
     margin-bottom: 0;
     padding-top: 2em;
+  }
+  #work select {
+    display: none !important;
+  }
+  #work a {
+    display: inline !important;
+    border: none;
+  }
+
+  #work ul.highlights {
+    display: none !important;
+  }
+
+  #work ul.technical {
+    display: block !important;
   }
 }

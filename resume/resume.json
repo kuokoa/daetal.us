@@ -8,9 +8,9 @@
     "label": "Industrial Developer",
     "summary": "Experienced, resourceful and effective developer, designer and architect of interactive data visualization, analysis and processing, distributed systems and web applications.",
     "location": {
-      "address": "1002 Koʻohoʻo Place",
-      "postalCode": "96734",
-      "city": "Kailua",
+      "address": "46-318 Haʻiku Road, #80",
+      "postalCode": "96744",
+      "city": "Kaneohe",
       "country": "US",
       "region": "Hawaiʻi"
     },
@@ -43,8 +43,14 @@
       "endDate": "Current",
       "summary": "",
       "highlights": [
-        "Designed all content and layout, captured and edited all photography, coordinated printing, publishing and sales for a casual but elegant and inspiring culinary catalog featuring west coast (California) and island (Hawaiʻi) cuisine; complemented by a website and paired with open source tooling.",
-        "Successfully designed, developed and deployed an internal corporate event planning and approval web application for one of the largest, most successful shoe manufacturers in the world."
+        "Successfully designed, developed and launched a general purpose iOS App with companion Apple Watch App utilizing location and device orientation to measure current three-dimensional positions and compute differences from other three-dimensional positions.",
+        "Successfully designed, developed and deployed an internal corporate event planning and approval web application for one of the largest, most successful shoe manufacturers in the world.",
+        "Designed all content and layout, captured and edited all photography, coordinated printing, publishing and sales for a casual but elegant and inspiring culinary catalog featuring west coast (California) and island (Hawaiʻi) cuisine; complemented by a website and paired with open source tooling."
+      ],
+      "details": [
+        "Successfully designed, developed and launched <a href=\"https://itunes.apple.com/us/app/pikō/id1348172249\">Pikō</a>: a general purpose iOS App with companion Apple Watch application utilizing location and device orientation to measure current three-dimensional positions and compute differences from other three-dimensional positions as various nautical, aeronautical and other mathematical representations.",
+        "Designed all content and layout in Adobe InDesign, captured and edited all photography, coordinated printing, publishing and sales at <a href=\"https://kuokoa.life\">kuokoa.life</a> for <a href=\"https://kuokoa.life/products/food-vibes\">Food Vibes</a>: a casual but elegant and inspiring culinary catalog complemented by <a href=\"http://foodvib.es\">foodvib.es</a>, a custom-rolled static HTML/CSS website and original <a href=\"https://github.com/foodvibes\">open source tooling</a> created to manage and publish the site.",
+        "Successfully designed, developed and deployed an internal corporate event planning and approval web application for one of the largest, most successful shoe manufacturers in the world. System consists of a Vue.js + Bulma/Buefy powered web application for the UI leveraging Mapbox for geocoding and custom map-based reporting; A custom Go-lang HTTP JSON API supporting JSON Schema data structures and validation, custom authorization and authentication via JSON Web Tokens and interfacing with Postgres for persistent data storage and Sparkpost for email notifications; a scheduler via Kala; all orchestrated via docker-compose and deployed via Amazon AWS"
       ]
     },
     {
@@ -58,7 +64,13 @@
         "Produced compelling interactive and static visual design communications and statistical analysis summaries utilized by the Industrial and Product Design teams and directly influencing the design process and conversation for multiple successful and in-development products.",
         "Generated numerous three dimensional surfaces, curvature and other geometries directly supporting various products ranging from physical and virtual product features to abstract, statistical representations of various aspects of the human form in dynamic contexts.",
         "Architected and successfully coordinated development of a sophisticated document-oriented data structure, HTTP JSON API and internal security strategy for a standardized data warehouse and unified reporting interface for disparate experimental data.",
-        "Designed a novel, configurable, iterative shape-fitting process that served at the center of design process for an upcoming product that was considered and queued for U.S. Patent."
+        "Designed a novel, configurable, iterative shape-fitting process that served at the center of design process for a product that was considered and queued for U.S. Patent."
+      ],
+      "details": [
+        "Produced compelling interactive and static visual design communications and statistical analysis summaries using MATLAB, RStudio, Swift, Golang and Node.js parsing CSV, JSON and other data streams; in the web context, heavily leveraged D3 and Three.js libraries and custom-built extensions thereof for visualization and interaction; utilized by the Industrial and Product Design teams and directly influencing the design process and conversation for multiple successful and in-development products.",
+        "Generated numerous three dimensional surfaces, curvature and other geometries directly supporting various products ranging from physical and virtual product features to abstract, statistical representations of various aspects of the human form in dynamic contexts.",
+        "Architected and successfully coordinated development of a sophisticated document-oriented data structure, HTTP JSON API and internal security strategy for a standardized data warehouse and unified reporting interface for disparate experimental data.",
+        "Designed a novel, configurable, iterative shape-fitting process leveraging PolyWorks by 3D Infotech and custom generated models in STL, point cloud and CSV formats that served at the center of design process for a product that was considered and queued for U.S. Patent."
       ]
     }, {
       "name": "Apple, Inc.",
@@ -70,6 +82,10 @@
       "highlights": [
         "Developed and deployed in-house wiki and publishing platform to coordinate communication, transparency and collaboration of Human Factors related research and interactive data visualizations.",
         "Level of success, impact and utility in development, design, collaboration and communication warranted induction to Industrial Design team in an official capacity within three months."
+      ],
+      "details": [
+        "Developed and deployed in-house wiki and publishing platform leveraging Markdown and Javascript to coordinate communication, transparency and collaboration of Human Factors related research and interactive data visualizations.",
+        "Level of success, impact and utility in development, design, collaboration and communication with data processing and interactive visualizations using Golang, Node.js, Three.js and D3 and evolving wiki warranted induction to Industrial Design team in an official capacity within three months."
       ]
     }, {
       "name": "Apple, Inc.",
@@ -80,9 +96,16 @@
       "summary": "Founding member and lead developer, designer and architect for a software team embedded in Manufacturing Design.",
       "highlights": [
         "Established and grew a multi-talented software team directly supporting Manufacturing Design in addition to leading the technical architecture, design and development of a suite of web applications and distributed systems supporting the mass production of nearly every product.",
-        "Architected, developed and deployed a state-of-the-art reverse proxy authentication micro-service interfacing with the corporate single-sign-on implementation that became a gold standard for SSO authentication for internal web services.",
-        "Designed, developed and successfully deployed a scalable, distributed manufacturing traceability and quality control system interfacing with laser etch machines, part scanners, custom touch screens with fully customizable data collection collaboratively defined by and utilized by Apple and external suppliers in Asia including a near-realtime web-accessible dashboard and unified reporting system.",
-        "Lead the design, codification and deployment of the standard for a distributed, machine-readable, binary part marking and identication standard that was adopted for all desktop and portable enclosures at all suppliers and considered for U.S. Patent.",
+        "Architected, developed and deployed a state-of-the-art authentication micro-service interfacing with the corporate single-sign-on implementation that became an internal gold standard.",
+        "Designed, developed and successfully deployed a scalable, distributed manufacturing traceability and quality control system interfacing with laser etch machines, part scanners, custom touch screens with fully customizable data collection collaboratively defined by and utilized by Apple and external suppliers in Asia including a realtime dashboard and reporting system.",
+        "Lead the design, codification and adoption of the standard for a distributed, machine-readable, binary part marking and identication standard that was adopted for all desktop and portable enclosures at all suppliers and considered for U.S. Patent.",
+        "Founded and coordinated a successful internal open source software initiative and club encouraging collaboration, communication and transparency including branding, a mailing list, chat room with logs and a network of web applications and tooling for code-sharing."
+      ],
+      "details": [
+        "Established and grew a multi-talented software team of backend and frontend web developers, systems administors and architects, mobile developers and devops engineers directly supporting Manufacturing Design in addition to leading the technical architecture, design and development of a suite of web applications and distributed systems supporting the mass production of nearly every product.",
+        "Architected, developed and deployed a state-of-the-art reverse proxy authentication micro-service interfacing with the corporate single-sign-on implementation that was internally-open-sourced and became a gold standard for SSO authentication for internal web services.",
+        "Designed, developed and successfully deployed a scalable, distributed manufacturing traceability and quality control system built mostly Golang, Couchbase, Oracle Database and a plethora of bash scripts; interfaced with laser etch machines, industrial 1D and 2D barcode scanners, custom touch screens with fully customizable data collection collaboratively defined by and utilized by Apple and external suppliers in Asia including a near-realtime web-accessible dashboard and unified reporting system built with Ember.js and D3.",
+        "Lead the design, codification and adoption of the standard for a distributed, machine-readable, binary part marking and identication standard that was adopted for all desktop and portable enclosures at all suppliers and considered for U.S. Patent.",
         "Founded and coordinated a successful internal open source software initiative and club encouraging collaboration, communication and transparency including branding, a mailing list, chat room with logs and a network of web applications and tooling for code-sharing."
       ]
     }, {
@@ -93,8 +116,14 @@
       "endDate": "2011-01",
       "summary": "Lead full-stack developement of web applications, customized e-commerce solutions and assisted with occasional interface design.",
       "highlights": [
-        "Successfully developed and deployed extraordinary custom modifications and various plugins for existing e-commerce applications.",
-        "Designed and developed a simple but highly effective an in-house, customizable content management system."
+        "Successfully developed and deployed extraordinary custom modifications and various plugins for existing e-commerce applications and content management systems.",
+        "Designed and developed a simple but highly effective an in-house, customizable content management system.",
+        "Lead the design and implementation of web-based public resources for an open source, rapid-application-development framework."
+      ],
+      "details": [
+        "Successfully developed and deployed extraordinary custom modifications and various plugins for existing e-commerce applications such as Magento and OSCommerce and content management systems such as Wordpress and Drupal.",
+        "Designed and developed a simple but highly effective an in-house, customizable content management system written in CakePHP utilizing MySQL as a database.",
+        "Lead the design and HTML/CSS implementation web-based public resources, application scaffolding and included testing suite as well as contributions to the official drivers for CouchDB and MongoDB, in an offical Core Contributor capacity for the open source, rapid-application-development PHP framework Lithium."
       ]
     }
   ]
