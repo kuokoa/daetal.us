@@ -1,0 +1,10 @@
+<svg viewBox="0 0 206 246" xmlns="http://www.w3.org/2000/svg">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 4.000000)">
+            <ellipse id="sun" stroke="#FFFFFF" stroke-width="5" cx="97.9837828" cy="65.3225219" rx="65.3225219" ry="65.3225219"></ellipse>
+            <polygon id="island" fill="#FFFFFF" points="97.9821494 65.3225219 163.306305 155.140989 32.6612609 155.140989 "></polygon>
+            <path d="M195.967566,171.47162 L163.306305,203.810734 L130.645044,171.47162 L97.9837828,203.810734 L65.3225219,171.47162 L32.6612609,202.177671 L0,171.47162" id="water" stroke="#FFFFFF" stroke-width="5" transform="translate(97.983783, 187.641177) rotate(-180.000000) translate(-97.983783, -187.641177) "></path>
+            <path d="M195.967566,204.132881 L163.306305,236.471995 L130.645044,204.132881 L97.801977,234.838932 L65.3225219,204.132881 L32.6612609,236.471995 L0,204.132881" id="Path-1" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" transform="translate(97.983783, 220.302438) rotate(-180.000000) translate(-97.983783, -220.302438) "></path>
+        </g>
+    </g>
+</svg>
