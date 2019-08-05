@@ -19,16 +19,27 @@
   <meta name="format-detection" content="telephone=no">
   <link rel="stylesheet" href="https://use.typekit.net/goa1kiv.css">
   <link rel="stylesheet" href="resume.css" type="text/css" />
+  <link rel="shortcut icon" type="image/png" href="https://kuokoa.studio/kii.svg">
 </head>
 <body>
   <article id="resume">
     <section id="overview">
       <section id="basics">
-        <img src="profile.jpg">
+        <img src="profile.png">
         <h1>Jon Adams</h1>
         <h2>Industrial Developer</h2>
-        <p>Experienced, resourceful and effective developer, designer and architect of interactive data visualization, analysis and processing, distributed systems and web applications.</p>
+        <p>Experienced, passionate, resourceful and effective developer, designer and architect of web applications and microservices, distributed systems, dynamic data processing, analysis and interactive visualization.</p>
         <section id="contact">
+          <a id="kuokoa" href="https://kuokoa.studio">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300">
+              <g transform="translate(5, 5)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <circle id="mahina" stroke="#000" stroke-width="5" cx="120" cy="80" r="80"></circle>
+                  <polygon id="moku" fill="#000" fill-rule="nonzero" points="119.998 80 200 190 40 190"></polygon>
+                  <polyline id="wai" stroke="#000" stroke-width="5" transform="translate(120, 229.802733) rotate(-180) translate(-120, -229.802733) " points="240 209.999999 200 249.605468 160 209.999999 120 249.605468 80 209.999999 40 247.605468 0 209.999999"></polyline>
+                  <polyline id="kai" stroke="#000" stroke-width="5" transform="translate(120, 269.802733) rotate(-180) translate(-120, -269.802733) " points="240 249.999999 200 289.605468 160 249.999999 119.777344 287.605468 80 249.999999 40 289.605468 0 249.999999"></polyline>
+              </g>
+            </svg>
+          </a>
           <a href="mailto:jon@kuokoa.studio?subject=Aloha.">jon@kuokoa.studio</a>
           <a href="tel://+1-808-343-7953">+1-808-343-7953</a>
         </section>
@@ -50,14 +61,16 @@
           <h6 class="duration">2016-10 – Current</h6>
           <p></p>
           <ul class="highlights">
-            <li>Successfully designed, developed and launched a general purpose iOS App with companion Apple Watch App utilizing location and device orientation to measure current three-dimensional positions and compute differences from other three-dimensional positions.</li>
-            <li>Successfully designed, developed and deployed an internal corporate event planning and approval web application for one of the largest, most successful shoe manufacturers in the world.</li>
-            <li>Designed all content and layout, captured and edited all photography, coordinated printing, publishing and sales for a casual but elegant and inspiring culinary catalog featuring west coast (California) and island (Hawaiʻi) cuisine; complemented by a website and paired with open source tooling.</li>
+            <li>Designed, developed, deployed and iterated on numerous public and private web applications for various Fortune 100 companies and other clients.</li>
+            <li>Designed, developed and launched a general purpose iOS App with companion Apple Watch App utilizing location and device orientation to measure current three-dimensional positions and compute differences from other three-dimensional positions.</li>
+            <li>Designed, developed and deployed an internal corporate event planning and approval web application for one of the largest, most successful shoe manufacturers in the world.</li>
+            <li>Designed all content and layout, captured and edited all photography, coordinated printing, publishing and sales for a casual but elegant and inspiring culinary catalog; complemented by a website and paired with open source tooling.</li>
           </ul>
           <ul class="technical active">
-            <li>Successfully designed, developed and launched <a href="https://itunes.apple.com/us/app/pikō/id1348172249">Pikō</a>: a general purpose iOS App with companion Apple Watch application utilizing location and device orientation to measure current three-dimensional positions and compute differences from other three-dimensional positions as various nautical, aeronautical and other mathematical representations.</li>
+            <li>Designed, developed, deployed and iterated on numerous public and private web applications for various Fortune 100 companies and other clients with equally varied technical solutions and tooling including containerized microservices, both custom and open source, interfacing with various internal and external APIs; implementing authentication, authorization schemes, payment processing, custom log pipelines, transactional and email notifications, stylized mapping, collaborative and dynamic interfaces, templatized pdf generation, and more with tools like shell scripts, golang, javascript/node.js, php, Postgres, BoltDB, MySQL, nginx, and frameworks like React, Vue.js, Echo to name a few.</li>
+            <li>Designed, developed and launched <a href="https://itunes.apple.com/us/app/pikō/id1348172249">Pikō</a>: a general purpose iOS App with companion Apple Watch application utilizing location and device orientation to measure current three-dimensional positions and compute differences from other three-dimensional positions as various nautical, aeronautical and other mathematical representations.</li>
             <li>Designed all content and layout in Adobe InDesign, captured and edited all photography, coordinated printing, publishing and sales at <a href="https://kuokoa.life">kuokoa.life</a> for <a href="https://kuokoa.life/products/food-vibes">Food Vibes</a>: a casual but elegant and inspiring culinary catalog complemented by <a href="http://foodvib.es">foodvib.es</a>, a custom-rolled static HTML/CSS website and original <a href="https://github.com/foodvibes">open source tooling</a> created to manage and publish the site.</li>
-            <li>Successfully designed, developed and deployed an internal corporate event planning and approval web application for one of the largest, most successful shoe manufacturers in the world. System consists of a Vue.js + Bulma/Buefy powered web application for the UI leveraging Mapbox for geocoding and custom map-based reporting; A custom Go-lang HTTP JSON API supporting JSON Schema data structures and validation, custom authorization and authentication via JSON Web Tokens and interfacing with Postgres for persistent data storage and Sparkpost for email notifications; a scheduler via Kala; all orchestrated via docker-compose and deployed via Amazon AWS</li>
+            <li>Designed, developed and deployed an internal corporate event planning and approval web application for one of the largest, most successful shoe manufacturers in the world. System consists of a Vue.js + Bulma/Buefy powered web application for the UI leveraging Mapbox for geocoding and custom map-based reporting; A custom Go-lang HTTP JSON API supporting JSON Schema data structures and validation, custom authorization and authentication via JSON Web Tokens and interfacing with Postgres for persistent data storage and Sparkpost for email notifications; a scheduler via Kala; all orchestrated via docker-compose and deployed via Amazon AWS</li>
           </ul>
         </section>
         <section class="job">
@@ -135,14 +148,6 @@
       </section>
     </section>
   </article>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-99123656-5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-99123656-5');
-  </script>
   <script>
   let selector = document.createElement('select');
   let options = ['highlights','technical'];

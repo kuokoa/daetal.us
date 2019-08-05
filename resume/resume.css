@@ -57,7 +57,8 @@ a, a:link, a:active, a:visited, a:hover {
   font-size: 3em;
 }*/
 #basics h2 {
-  color: rgba(255,255,255,.35);
+  color: rgba(255,255,255,.5);
+  font-weight: 500;
 }
 #basics p {
   flex: 1;
@@ -145,14 +146,14 @@ a, a:link, a:active, a:visited, a:hover {
   right: .8rem;
   border-radius: 0 0 .25rem .25rem;
   background: rgba(0,0,0,.025);
-  color: rgba(0,0,0,.35);
+  color: rgba(0,0,0,.5);
   padding: .8em 1.2em;
 }
 
 #work h6.location {
   font-size: .6em;
   line-height: 2.8;
-  color: rgba(0,0,0,.25);
+  color: rgba(0,0,0,.5);
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -195,6 +196,25 @@ a, a:link, a:active, a:visited, a:hover {
   border-radius: .25rem;
   box-shadow: 0 .125em .25em rgba(50, 50, 50, .1);
   font-size: 1.2em;
+}
+
+#kuokoa {
+  width: 25%;
+  opacity: .25;
+  margin: 0 auto;
+  transition: opacity .25s ease;
+}
+
+#kuokoa:hover {
+  opacity: 1;
+}
+
+#mahina, #wai, #kai {
+  stroke: white;
+}
+
+#moku {
+  fill: white;
 }
 
 @media (max-width: 768px), print {
@@ -248,15 +268,21 @@ a, a:link, a:active, a:visited, a:hover {
   h1, h2 {
     text-align: center !important;
   }
-  #work {
-    page-break-before: always;
+  #kuokoa {
+    display: none !important;
   }
+  #overview {
+    padding-bottom: 0;
+  }
+  /* #work {
+    page-break-before: always;
+  } */
   #work .job {
     font-size: 1em;
     padding: .9rem 1.4rem;
   }
   #contact {
-    padding: 1em 0;
+    padding: 1em 0 0;
   }
   #contact a {
     text-align: center !important;
@@ -268,6 +294,9 @@ a, a:link, a:active, a:visited, a:hover {
     left: auto;
     right: auto;
     display: inline !imporant;
+  }
+  #profiles {
+    padding-bottom: 0;
   }
   #profiles a {
     position: relative;
@@ -284,7 +313,7 @@ a, a:link, a:active, a:visited, a:hover {
     content: attr(href);
   }
   #basics img {
-    height: 4.4em;
+    height: 10em;
     margin: 0 auto 1.4rem;
   }
   #work {
