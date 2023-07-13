@@ -1,1 +1,95 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=canonical href=http://daetal.us><title>daetal.us</title><link href=/static/css/app.69deab9e4bc9b47064224e13f5c9a2ab.css rel=stylesheet></head><body class=d-container><div id=daetalus></div><script type=text/javascript src=/static/js/manifest.eeb2c031c0c552bd70ec.js></script><script type=text/javascript src=/static/js/app.04bf746768dd26a7b1a7.js></script></body></html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="canonical" href="http://daetal.us">
+	<link rel="icon" href="favicon.svg">
+	<link rel="mask-icon" href="favicon.svg" color="#000000">
+	<title>daetal.us</title>
+	<link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1>://daetal.us</h1>
+	</header>
+	<section id="cyberspace"></section>
+	<section id="links">
+		<ul>
+			<li>
+				<a class="github" href="https://github.com/daetal-us" title="Public code by Jon Adams">
+					github.com/daetal-us
+				</a>
+			</li>
+			<li>
+				<a class="linkedin" href="https://linkedin.com/in/daetalus" title="Jon Adams on LinkedIn">
+					linkedin.com/in/daetalus
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section id="works">
+		<h2>public works</h2>
+		<section id="cards">
+			<div class="card">
+				<a class="image" href="https://foodvib.es">
+					<img class="scale" alt="Food Vibes the book" src="media/food-vibes.jpg">
+				</a>
+				<a class="title" href="https://foodvib.es">
+					<h3>Food Vibes</h3>
+				</a>
+				<p>West Coast / Island Style Cooking</p>
+				<cite>
+					<a href="https://foodvib.es">://foodvib.es</a>
+				</cite>
+			</div>
+			<div class="card">
+				<a class="image" href="https://itunes.apple.com/us/app/pikō/id1348172249">
+					<img alt="Pikō for iOS" src="media/piko.jpg">
+				</a>
+				<a class="title" href="https://itunes.apple.com/us/app/pikō/id1348172249">
+					<h3>Pikō</h3>
+				</a>
+
+				<p>Measure 3D Positions on Earth</p>
+				<cite class="appstore">
+					<a href="https://itunes.apple.com/us/app/pik%C5%8D/id1348172249?mt=8"
+						title="Download on the App Store">Download on the App Store</a>
+				</cite>
+			</div>
+			<div class="card">
+				<a class="image" href="https://kuokoa.studio">
+					<img alt="Kuokoa Studio" src="media/desktop.jpg">
+				</a>
+				<a class="title" href="https://kuokoa.studio">
+					<h3>Kuokoa Studio</h3>
+				</a>
+				<p>Industrial Development &amp; Software Design</p>
+				<cite>
+					<a href="https://kuokoa.studio">://kuokoa.studio</a>
+				</cite>
+			</div>
+		</section>
+		<footer>
+			<img width="3rem" src="media/kuokoa.svg" />
+		</footer>
+	</section>
+	<script type="module" src="cyberspace.js"></script>
+	<script nomodule>
+		document.getElementById('cyberspace').remove();
+		document.getElementsByTagName('h1')[0].remove();
+	</script>
+	<script>
+		const header = document.getElementsByTagName('header')[0];
+		window.addEventListener('scroll', () => {
+			if (window.pageYOffset > (window.innerHeight * .5)) {
+				header.setAttribute('class', 'scrolled');
+			} else {
+				header.removeAttribute('class');
+			}
+		});
+	</script>
+</body>
+</html>
