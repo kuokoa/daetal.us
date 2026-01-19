@@ -234,6 +234,12 @@ footer img {
 	opacity: .1;
 }
 
+@media all and (max-width:100rem) {
+	#cards {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
 @media all and (max-width:80rem) {
 	#cards {
 		grid-template-columns: repeat(2, 1fr);
