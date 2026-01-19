@@ -115,24 +115,24 @@ header {
 }
 
 #works {
-	color: black;
-	background: #efefef url(media/bg.png) repeat;
-	background-attachment: fixed;
+	background-color: #222;
+	color: white;
 	box-shadow: inset 0 0 2rem 1rem rgba(0, 0, 0, .15);
 }
 
 #cards {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	gap: 4rem;
 	padding: 3rem 4rem;
 }
 
 .card {
-	border-radius: 1rem;
+	border-radius: 4rem 0rem 4rem 0;
 	overflow: hidden;
 	display: block;
 	background: white;
+	color: black;
 	padding: 0;
 	margin: 0;
 	box-shadow:
@@ -146,6 +146,14 @@ header {
 	display: block;
 }
 
+.card.unavailable {
+	opacity: .5;
+}
+
+.card.unavailable a {
+	cursor: not-allowed;
+}
+
 .card p,
 .card cite {
 	padding: 0 2rem;
@@ -154,6 +162,11 @@ header {
 .card p {
 	margin: 0;
 	line-height: 1.4;
+}
+
+.card blockquote {
+	color: #888;
+	text-align: center;
 }
 
 .card cite {
@@ -173,7 +186,7 @@ cite.appstore {
 cite.appstore a {
 	display: inline-block;
 	overflow: hidden;
-	background: url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;
+	background: url(vendor/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg) no-repeat;
 	width: 135px;
 	height: 0;
 	padding: 40px 0 0 0;
@@ -192,6 +205,10 @@ a.image img {
 	height: 35vh;
 	min-height: 20rem;
 	object-fit: cover;
+}
+
+a.image.dark img {
+	background-color: black;
 }
 
 a.image img.pad {
@@ -215,6 +232,12 @@ footer img {
 	display: block;
 	width: 4rem;
 	opacity: .1;
+}
+
+@media all and (max-width:80rem) {
+	#cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media all and (max-width: 60rem) {
