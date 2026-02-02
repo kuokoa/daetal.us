@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-	font-size: 6rem;
+	font-size: 8vw;
 	margin: 0;
 	text-align: center;
 	padding: 2em 1em 1em;
@@ -89,10 +89,11 @@ header {
 
 #links ul {
 	margin: 0;
-	padding: 4rem 0;
+	padding: 4rem 0 5rem;
 	list-style: none;
 	display: flex;
 	flex-direction: row;
+	gap: 2rem;
 	align-items: center;
 	justify-content: center;
 }
@@ -124,23 +125,6 @@ header {
 	top: -.4rem;
 }
 
-#links li.link a:before {
-	display: inline-block;
-	content: '';
-	background: url(media/icons/github.svg) no-repeat center left;
-	background-size: 100% 100%;
-	width: 1em;
-	height: 0;
-	padding: 1.5em 0 0 0;
-	margin-right: .25em;
-	position: relative;
-	top: .4em;
-}
-
-#links li a.linkedin:before {
-	background-image: url(media/icons/linkedin.svg);
-}
-
 #avatar {
 	position: relative;
 }
@@ -157,13 +141,14 @@ header {
 	background-color: #222;
 	color: white;
 	box-shadow: inset 0 0 2rem 1rem rgba(0, 0, 0, .15);
+	padding: 5rem 4rem;
 }
 
 #cards {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 4rem;
-	padding: 3rem 4rem;
+	padding: 3rem 0;
 }
 
 .card {
@@ -304,29 +289,32 @@ footer img {
 	h3,
 	#links,
 	#cards cite {
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 	}
 
-	#links ul,
+	#works {
+		padding: 5rem 2rem;
+	}
+
 	#cards {
 		display: block;
 	}
 
-	#cards {
-		padding: 3rem 2rem;
-	}
-
 	#links {
-		padding-bottom: 10rem;
+		padding-bottom: 5rem;
 	}
 
-	#links li:first-child {
-		margin-bottom: 2rem;
+	#links ul {
+		flex-direction: column;
 	}
 
 	#links li,
 	#links li:last-child {
 		text-align: center;
+	}
+
+	#links li.link a:before {
+		display: none;
 	}
 
 	.card {
