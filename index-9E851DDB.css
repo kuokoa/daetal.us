@@ -327,7 +327,7 @@ footer img {
 
 	header,
 	#cyberspace {
-		height: 98vh;
+		height: 90vh;
 	}
 
 	h3,
@@ -345,6 +345,7 @@ footer img {
 	}
 
 	#links {
+		padding-top: 4rem;
 		padding-bottom: 5rem;
 	}
 
