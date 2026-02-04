@@ -302,7 +302,7 @@ a.image img.scale {
 footer {
 	display: flex;
 	justify-content: center;
-	padding: 20em 0;
+	height: 100vh;
 }
 
 footer img {
