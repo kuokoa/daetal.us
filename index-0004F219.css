@@ -210,9 +210,6 @@ header {
 	border-radius: 0 2rem 2rem 2rem;
 	padding: 0 0 3rem 0;
 	margin: 0;
-	box-shadow:
-		0 0 1rem 1px rgba(0, 0, 0, .5),
-		1px 2px 1rem 1px rgba(0, 0, 0, .5);
 }
 
 .card a,
@@ -261,7 +258,7 @@ header {
 	padding: 0;
 	text-align: center;
 	position: absolute;
-	top: calc(-1.9rem);
+	top: calc(-.95em);
 	left: 0;
 	z-index: 1;
 }
@@ -402,5 +399,9 @@ footer img {
 
 	.card p {
 		font-size: 1.2rem;
+	}
+
+	.card cite {
+		font-size: calc(6.5vw);
 	}
 }
